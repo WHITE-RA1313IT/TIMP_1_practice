@@ -1,0 +1,60 @@
+body {
+    background-color: beige;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+button {
+    position: sticky;
+}
+
+.white-cell {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+}
+
+.black-cell {
+    background-color: saddlebrown;
+    cursor: default;
+    height: 70px;
+    width: 70px;
+}
+
+.white-checker-non-active {
+    background-image: url('images/white checker.png');
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+}
+
+.white-checker-active {
+    background-image: url('images/white checker (clicked).png');
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+}
+
+.black-checker-non-active {
+    background-image: url('images/black checker.png');
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+}
+
+.black-checker-active {
+    background-image: url('images/black checker (clicked).png');
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+}
