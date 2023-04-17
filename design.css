@@ -1,0 +1,33 @@
+body {
+	overflow: hidden;
+}
+
+#block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checker {
+    background-color: yellow;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    z-index: 2;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    
+    transition: margin-left 1s, margin-top 1s;
+}
+
+.checker:hover {
+    width: 40px;
+    height: 40px;
+    border: 5px solid;
+    border-color: aqua;
+	transform: translate(-50%, -50%);
+}
