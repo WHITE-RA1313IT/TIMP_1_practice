@@ -1,5 +1,6 @@
 body {
 	overflow: hidden;
+	background-color: beige;
 }
 
 #block {
@@ -9,8 +10,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.checker {
-    background-color: yellow;
+#status {
+	font-family: "Arial Black";
+	font-size: 1.5em;
+}
+
+.black-checker,
+.white-checker {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -21,13 +27,24 @@ body {
     margin-left: 50%;
     transform: translate(-50%, -50%);
     
-    transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 0.3s, margin-top 0.3s;
 }
 
-.checker:hover {
+.black-checker:hover,
+.white-checker:hover {
     width: 40px;
     height: 40px;
     border: 5px solid;
     border-color: aqua;
 	transform: translate(-50%, -50%);
+}
+
+.black-checker {
+    background-color: black;
+}
+
+.white-checker {
+    background-color: white;
+	border: 1px solid;
+    border-color: black;
 }
