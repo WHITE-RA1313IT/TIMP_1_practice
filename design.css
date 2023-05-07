@@ -8,6 +8,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+	display: flex;
 }
 
 #status {
@@ -21,13 +22,10 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    
     z-index: 2;
-    margin-top: 50%;
-    margin-left: 50%;
     transform: translate(-50%, -50%);
     
-    transition: margin-left 0.3s, margin-top 0.3s;
+    transition: left 0.3s, top 0.3s;
 }
 
 .black-checker:hover,
